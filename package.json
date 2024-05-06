@@ -11,7 +11,7 @@
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
     "lint": "eslint .",
-    "format": "prettier -w index.html",
+    "format": "prettier -w src/**/*.js",
     "prepare": "husky install"
   },
   "keywords": [],
