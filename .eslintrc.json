@@ -14,8 +14,7 @@
       "plugins": ["cypress"],
       "extends": ["plugin:cypress/recommended"],
       "rules": {
-        "cypress/no-unnecessary-waiting": "off",
-        "no-unused-vars": "off"
+        "cypress/no-unnecessary-waiting": "off"
       }
     },
     {
@@ -30,6 +29,5 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   }
-    
 }
   
